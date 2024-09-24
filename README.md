@@ -1,6 +1,6 @@
-# webapp-containers
+# deploying a web application using containers
 
-Here’s a step-by-step guide, along with sample code, for deploying a web application using containers. In this example, we’ll use **Docker** for containerization and **Amazon ECS with Fargate** for deployment. We will also push the Docker image to **Amazon ECR (Elastic Container Registry)**.
+step-by-step guide, along with sample code, for deploying a web application using containers. In this example, we’ll use **Docker** for containerization and **Amazon ECS with Fargate** for deployment. We will also push the Docker image to **Amazon ECR (Elastic Container Registry)**.
 
 ### **1. Containerizing the Web Application with Docker**
 
