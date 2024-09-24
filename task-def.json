@@ -1,0 +1,21 @@
+{
+  "family": "my-web-app-task",
+  "networkMode": "awsvpc",
+  "executionRoleArn": "arn:aws:iam::<account-id>:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "name": "my-web-app",
+      "image": "<account-id>.dkr.ecr.<aws-region>.amazonaws.com/my-web-app:latest",
+      "portMappings": [
+        {
+          "containerPort": 3000,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true
+    }
+  ],
+  "requiresCompatibilities": [ "FARGATE" ],
+  "cpu": "256",
+  "memory": "512"
+}
