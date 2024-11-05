@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-web-app
-          image: <345594579424>.dkr.ecr.<aws-region>.amazonaws.com/my-web-app:latest
+          image: nginx:latest
           ports:
             - containerPort: 3000
